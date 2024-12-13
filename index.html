@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="">
+    <div class="app">
+      <header>
+        <div class="profile">
+          <div class="profile-img">
+            <img src="image/avatar.jpeg" alt="" />
+          </div>
+          <h1>M. Reza Pahlevi</h1>
+          <p class="profile-bio">Frontend Developer</p>
+          <p class="profile-title">Bachelor of Informatics</p>
+          <nav>
+            <ul>
+              <li>
+                <a href="#about" class="nav-item link-item">About</a>
+              </li>
+              <li>
+                <a href="#experience" class="nav-item link-item">Experience</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="nav-item link-item">Portfolio</a>
+              </li>
+              <li>
+                <a href="#certificate" class="nav-item link-item"
+                  >Certificate</a
+                >
+              </li>
+              <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="social-links">
+          <li>
+            <a href="#" class="btn">Github</a>
+          </li>
+          <li>
+            <a href="#" class="btn">LinkedIn</a>
+          </li>
+        </ul>
+      </header>
+      <main id="content">
+        <section id="about">
+          <div class="heading">
+            <h2>About Me</h2>
+          </div>
+          <!-- isi dari konten -->
+          <div class="decs">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Asperiores dolores velit fuga atque tempore natus impedit. Cum
+              eligendi molestias doloremque inventore quibusdam voluptates
+              dolorem, sint obcaecati officiis nobis modi necessitatibus!
+            </p>
+          </div>
+          <div class="abouts-tab">
+            <button
+              type="button"
+              class="tab-item active"
+              data-target="#education"
+            >
+              Education
+            </button>
+            <button type="button" class="tab-item" data-target="#skills">
+              Skills
+            </button>
+          </div>
+          <!-- <h2 class="subtitle">Education</h2> -->
+          <div class="tab-content active" id="education">
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="date">2020-2024</span>
+                <h4>Universitas Semarang (USM)</h4>
+                <p>Informatics Engineer</p>
+              </div>
+              <div class="timeline-item">
+                <span class="date">2017-2020</span>
+                <h4>SMA Islam Sultan Agung 01 Semarang</h4>
+              </div>
+              <div class="timeline-item">
+                <span class="date">2014-2017</span>
+                <h4>SMP Negeri 04 Semarang</h4>
+              </div>
+              <div class="timeline-item">
+                <span class="date">2008-2014</span>
+                <h4>SDN Muktiharjo Kidul 01 Semarang</h4>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content" id="skills">
+            <p>Kosong!</p>
+          </div>
+        </section>
+
+        <section id="experience">
+          <div class="heading">
+            <h2>Experience</h2>
+          </div>
+          <div class="decs">
+            <!-- <h2 class="subtitle">Work Experience</h2> -->
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="date">September 2023 - November 2023</span>
+                <h4>Dinas Perindustrian dan Perdagangan Prov. Jawa Tengah</h4>
+                <p>Intern - Frontend Developer</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio">
+          <div class="heading">
+            <h2>Recent Work.</h2>
+          </div>
+
+          <div class="decs">
+            <div class="list">
+              <div class="list-items">
+                <div class="list-thumb">
+                  <img src="image/project.png" alt="" />
+                </div>
+                <h3 class="list-title">Website Admin LPH Surakarta</h3>
+                <div class="list-detail">
+                  <p class="project-desc">hai</p>
+                  <div class="project-info"></div>
+                </div>
+                <button class="project-btn btn">Detail</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="certificate" class="certificate">
+          <div class="heading">
+            <h2>Certificates</h2>
+          </div>
+          <div class="decs">
+            <div class="list">
+              <div class="list-item">
+                <div class="list-thumb certificate-item">
+                  <img src="image/project.png" alt="" />
+                </div>
+                <div class="list-thumb-content">
+                  <p>Detail</p>
+                </div>
+                <h3 class="list-title">Dicoding Certificate</h3>
+                <div class="list-detail">
+                  <p class="project-desc">hai</p>
+                  <div class="project-info"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact">
+          <div class="heading">
+            <h2>Contact</h2>
+          </div>
+          <div class="decs">
+            <div class="contact-form">
+              <form>
+                <input type="text" name="name" placeholder="Your Name" />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email Address"
+                />
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Send</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="popup">
+      <div class="popup-content">
+        <button type="button" class="btn popup-close">X</button>
+        <div class="popup-thumbnail">
+          <img src="" alt="" />
+        </div>
+
+        <h3>hhh</h3>
+        <div class="popup-body"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

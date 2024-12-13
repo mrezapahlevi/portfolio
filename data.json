@@ -1,0 +1,83 @@
+{
+  "home": {
+    "name": "M. Reza Pahlevi",
+    "title": "Passionate Frontend Developer",
+    "profile_picture": "images/avatar.jpeg",
+    "contact": {
+      "email": "pahlevireza512@gmail.com",
+      "phone": "082136613200",
+      "linkedin": "https://www.linkedin/in/mrezapahlevi",
+      "github": "https://github.com/mrezapahlevi"
+    }
+  },
+  "about_me": {
+    "description": "I am a web developer. My expertise includes HTML, CSS, Javascript, and and various front-end frameworks like React and Vue.js",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "UI/UX Design"]
+  },
+  "portfolio": [
+    {
+      "title": "Pengembangan Website dengan Integrasi RESTful API",
+      "description": "Selama magang di Disperindag Prov. Jateng, saya bertanggung jawab untuk mengembangkan aplikasi web yang mengintegrasikan RESTful API yang disediakan oleh Kementrian, serta menyediakan tampilan responsif dan mudah digunakan",
+      "technologies": ["HTML", "CSS", "JavaScript", "Laravel", "RESTful API"],
+      "tasks": [
+        "Mengkonsumsi data dari RESTful API yang sudah disediakan",
+        "Pengembangan antarmuka pengguna (UI)",
+        "Implementasi fitur pencarion dan filter data",
+        "Pengujian aplikasi dan debugging"
+      ],
+      "images": [
+        {
+          "image_url": "images/project1-1.jpeg",
+          "description": "Tampilan Halaman utama aplikasi"
+        }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Freecodecamp - Responsive Web",
+      "institution": "freeCodeCamp",
+      "data_issued": null,
+      "certificate_url": null,
+      "images": ["images/freecodecamp_responsive_web.jpg"]
+    },
+    {
+      "title": "Dicoding - Belajar Membuat Front-End Web untuk Pemula",
+      "institution": "Dicoding",
+      "data_issued": null,
+      "certificate_url": "dicoding.com/certificates/6RPND5564Z2M",
+      "images": [
+        "images/dicoding_frontend _001.png",
+        "images/dicoding_frontend_002.png"
+      ]
+    },
+    {
+      "title": "Dicoding - Belajar Dasar Pemrograman Web",
+      "institution": "Dicoding",
+      "data_issued": null,
+      "certificate_url": "dicoding.com/certificates/JMZVGJL33ZN9",
+      "images": [
+        "images/dicoding_web_001.png",
+        "images/dicoding_web_002.png",
+        "images/dicoding_web_003.png"
+      ]
+    },
+    {
+      "title": "Microsoft Office Specialist",
+      "institution": "Microsoft",
+      "data_issued": null,
+      "certificate_url": null,
+      "images": ["images/ms-specialist_001.png", "images/ms-specialist_002.png"]
+    },
+    {
+      "title": "Pelatihan Sertifikasi Microsoft",
+      "institution": "UPT Komputer USM",
+      "data_issued": null,
+      "certificate_url": null,
+      "images": [
+        "images/puskom_pelatihan_001.png",
+        "images/puskom_pelatihan_002.png"
+      ]
+    }
+  ]
+}
