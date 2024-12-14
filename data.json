@@ -16,6 +16,7 @@
   },
   "portfolio": [
     {
+      "id": 1,
       "title": "Pengembangan Website dengan Integrasi RESTful API",
       "description": "Selama magang di Disperindag Prov. Jateng, saya bertanggung jawab untuk mengembangkan aplikasi web yang mengintegrasikan RESTful API yang disediakan oleh Kementrian, serta menyediakan tampilan responsif dan mudah digunakan",
       "technologies": ["HTML", "CSS", "JavaScript", "Laravel", "RESTful API"],
@@ -25,16 +26,12 @@
         "Implementasi fitur pencarion dan filter data",
         "Pengujian aplikasi dan debugging"
       ],
-      "images": [
-        {
-          "image_url": "images/project1-1.jpeg",
-          "description": "Tampilan Halaman utama aplikasi"
-        }
-      ]
+      "images": ["images/intern.png", "images/intern2.png"]
     }
   ],
   "certificates": [
     {
+      "id": 1,
       "title": "Freecodecamp - Responsive Web",
       "institution": "freeCodeCamp",
       "data_issued": null,
@@ -42,16 +39,18 @@
       "images": ["images/freecodecamp_responsive_web.jpg"]
     },
     {
+      "id": 2,
       "title": "Dicoding - Belajar Membuat Front-End Web untuk Pemula",
       "institution": "Dicoding",
       "data_issued": null,
       "certificate_url": "dicoding.com/certificates/6RPND5564Z2M",
       "images": [
-        "images/dicoding_frontend _001.png",
+        "images/dicoding_frontend_001.png",
         "images/dicoding_frontend_002.png"
       ]
     },
     {
+      "id": 3,
       "title": "Dicoding - Belajar Dasar Pemrograman Web",
       "institution": "Dicoding",
       "data_issued": null,
@@ -63,6 +62,7 @@
       ]
     },
     {
+      "id": 4,
       "title": "Microsoft Office Specialist",
       "institution": "Microsoft",
       "data_issued": null,
@@ -70,6 +70,7 @@
       "images": ["images/ms-specialist_001.png", "images/ms-specialist_002.png"]
     },
     {
+      "id": 5,
       "title": "Pelatihan Sertifikasi Microsoft",
       "institution": "UPT Komputer USM",
       "data_issued": null,
