@@ -23,7 +23,7 @@
       "tasks": [
         "Mengkonsumsi data dari RESTful API yang sudah disediakan",
         "Pengembangan antarmuka pengguna (UI)",
-        "Implementasi fitur pencarion dan filter data",
+        "Implementasi fitur pencarian dan filter data",
         "Pengujian aplikasi dan debugging"
       ],
       "images": ["images/intern.png", "images/intern2.png"]
