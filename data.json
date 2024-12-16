@@ -12,7 +12,36 @@
   },
   "about_me": {
     "description": "I am a web developer. My expertise includes HTML, CSS, Javascript, and and various front-end frameworks like React and Vue.js",
-    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "UI/UX Design"]
+    "skills": [
+      {
+        "name": "HTML, CSS, Javascript",
+        "image": "images/htmlcssjs.png"
+      },
+      {
+        "name": "PHP",
+        "image": "images/php.png"
+      },
+      {
+        "name": "Python",
+        "image": "images/python.png"
+      },
+      {
+        "name": "React",
+        "image": "images/react.png"
+      },
+      {
+        "name": "Node.Js",
+        "image": "images/nodejs.png"
+      },
+      {
+        "name": "Laravel",
+        "image": "images/laravel.png"
+      },
+      {
+        "name": "MySql",
+        "image": "images/mysql.png"
+      }
+    ]
   },
   "portfolio": [
     {
