@@ -283,8 +283,10 @@ header {
 
 .skill-container {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
@@ -505,6 +507,10 @@ textarea {
     font-weight: 800;
     margin-left: 0;
     /* color: var(--font-color-primary); */
+  }
+
+  .skill-container {
+    grid-template-columns: repeat(5, 1fr);
   }
 
   .slider-list {

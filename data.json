@@ -14,8 +14,16 @@
     "description": "I am a web developer. My expertise includes HTML, CSS, Javascript, and and various front-end frameworks like React and Vue.js",
     "skills": [
       {
-        "name": "HTML, CSS, Javascript",
-        "image": "images/htmlcssjs.png"
+        "name": "HTML",
+        "image": "images/html.png"
+      },
+      {
+        "name": "CSS",
+        "image": "images/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "image": "images/js.png"
       },
       {
         "name": "PHP",
