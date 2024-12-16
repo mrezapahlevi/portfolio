@@ -68,7 +68,7 @@ function templateList(data, className = "") {
                 </div>
                 <h3 class="list-title">${data.title}</h3>
                 <div class="list-detail">
-                  <p class="project-desc">hai</p>
+                  <p class="project-desc"></p>
                   <div class="project-info"></div>
                 </div>
               </div>
