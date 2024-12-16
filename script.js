@@ -7,7 +7,6 @@ window.addEventListener("load", function () {
       return res.json();
     })
     .then((data) => {
-      console.log(data.about_me);
       renderPortofolio(data);
     })
     .catch((err) => {
@@ -28,6 +27,20 @@ function renderPortofolio(data) {
 
   listCertif = certificates;
   listPort = portfolio;
+
+  // SKILLS
+  document.querySelector(".skill-container").innerHTML = about_me.skills
+    .map((item) => {
+      return `
+      <div class="skill-item">
+                <p class="skill-name">${item.name}</p>
+                <div class="skill-img">
+                  <img src="${item.image}" alt="" />
+                </div>
+              </div>
+    `;
+    })
+    .join("");
 
   // CERTIFICATES
   document.querySelector(".certificate .decs .list").innerHTML = certificates
@@ -51,7 +64,6 @@ function renderPortofolio(data) {
 
       // Konversi kembali dokumen ke string HTML
       const updatedTemp = doc.body.innerHTML;
-      console.log(temp);
       return updatedTemp;
     })
     .join("");
@@ -115,7 +127,6 @@ function popupItemDetails(projectItem) {
   const target = projectItem.getAttribute("data-target");
   const targetPort = listPort.find((port) => port.id == target);
 
-  console.log(targetPort);
   const images = targetPort.images
     .map(
       (img) => `
@@ -172,7 +183,6 @@ navItems.forEach((item) => {
 
 document.addEventListener("click", (e) => {
   if (e.target.classList.contains("list-thumb-content")) {
-    console.log("test");
     togglePopup();
     document.querySelector(".popup").scrollTo(0, 0);
     popupCertificate(e.target.parentElement);
@@ -180,11 +190,7 @@ document.addEventListener("click", (e) => {
 });
 
 function popupCertificate(projectItem) {
-  console.log(listCertif);
-  console.log(projectItem);
-
   const target = projectItem.getAttribute("data-target");
-  console.log(target);
   const targetCertif = listCertif.find((certif) => certif.id == target);
 
   const images = targetCertif.images
@@ -235,7 +241,6 @@ document.addEventListener("click", (e) => {
 
     let active = 0;
     let lengthItems = items.length - 1;
-    console.log(lengthItems);
 
     next.onclick = function () {
       if (active + 1 > lengthItems) {
